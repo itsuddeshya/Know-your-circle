@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Activity Lifecycle</string>
+    <string name="button">Button</string>
+    <string name="hello_uddeshya">Hello Uddeshya!</string>
+    <string name="new_app_name">Mycontacts</string>
+    <string name="enter_passward">Enter passward</string>
+    <string name="forgot_passward">Forgot Passward?</string>
+</resources>

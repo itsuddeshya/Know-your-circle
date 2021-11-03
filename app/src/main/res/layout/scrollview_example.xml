@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/img1" />
+            <TextView
+                android:id="@+id/txtName1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Uddeshya Raj Singh"
+                android:layout_toRightOf="@id/imageView1"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/txtEmail1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="uddeshyaraj@gmail.com"
+                android:layout_toRightOf="@id/imageView1"
+                android:layout_marginTop="54dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/txtPhoneNo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 7777777777"
+                android:layout_toRightOf="@+id/imageView1"
+                android:layout_below="@+id/txtEmail1"
+                android:textStyle="bold"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="20dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/img2" />
+            <TextView
+                android:id="@+id/txtName2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Atul Singh"
+                android:layout_toRightOf="@id/imageView2"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/txtEmail2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="atul@gmail.com"
+                android:layout_toRightOf="@id/imageView2"
+                android:layout_marginTop="54dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/txtPhoneNo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 6666666666"
+                android:layout_toRightOf="@+id/imageView2"
+                android:layout_below="@+id/txtEmail2"
+                android:textStyle="bold"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="20dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/img3" />
+            <TextView
+                android:id="@+id/txtName3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Tribhuwan Pal"
+                android:layout_toRightOf="@id/imageView3"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/txtEmail3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tribhuwan@gmail.com"
+                android:layout_toRightOf="@id/imageView3"
+                android:layout_marginTop="54dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/txtPhoneNo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 5555555555"
+                android:layout_toRightOf="@+id/imageView3"
+                android:layout_below="@+id/txtEmail3"
+                android:textStyle="bold"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="20dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/img4" />
+            <TextView
+                android:id="@+id/txtName4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Prayukti Pathak"
+                android:layout_toRightOf="@id/imageView4"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/txtEmail4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="prayukti@gmail.com"
+                android:layout_toRightOf="@id/imageView4"
+                android:layout_marginTop="54dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/txtPhoneNo4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 4444444444"
+                android:layout_toRightOf="@+id/imageView4"
+                android:layout_below="@+id/txtEmail4"
+                android:textStyle="bold"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="20dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/img5" />
+            <TextView
+                android:id="@+id/txtName5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Aniket Kumar Nigam"
+                android:layout_toRightOf="@id/imageView5"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/txtEmail5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aniket@gmail.com"
+                android:layout_toRightOf="@id/imageView5"
+                android:layout_marginTop="54dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/txtPhoneNo5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 2222222222"
+                android:layout_toRightOf="@+id/imageView5"
+                android:layout_below="@+id/txtEmail5"
+                android:textStyle="bold"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="20dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/img6" />
+            <TextView
+                android:id="@+id/txtName6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Prashant Kumar"
+                android:layout_toRightOf="@id/imageView6"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/txtEmail6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="prashant@gmail.com"
+                android:layout_toRightOf="@id/imageView6"
+                android:layout_marginTop="54dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/txtPhoneNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 1111111111"
+                android:layout_toRightOf="@+id/imageView6"
+                android:layout_below="@id/txtEmail6"
+                android:textStyle="bold"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="20dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
