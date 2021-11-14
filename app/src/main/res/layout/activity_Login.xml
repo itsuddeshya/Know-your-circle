@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context=".NewActivity">
+    tools:context=".LoginActivity">
 
 
     <ImageView
@@ -21,29 +21,29 @@
         android:id="@+id/etMobileNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter mobile number (123456789)"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
-        android:padding="10dp"
         android:layout_below="@+id/imgLogo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Enter mobile number (123456789)"
         android:inputType="phone"
         android:maxLength="10"
         android:maxLines="1"
+        android:minHeight="48dp"
 
-        />
+        android:padding="10dp" />
 
     <EditText
         android:id="@+id/etPassward"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter Passward (passward) "
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
-        android:padding="10dp"
         android:layout_below="@+id/etMobileNumber"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Enter Passward (passward) "
         android:inputType="text"
         android:maxLines="1"
-        />
+        android:minHeight="48dp"
+        android:padding="10dp" />
 
     <Button
         android:id="@+id/btnLogin"

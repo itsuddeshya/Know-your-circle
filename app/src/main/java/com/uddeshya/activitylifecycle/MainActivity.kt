@@ -5,10 +5,17 @@ import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
+    var titleName : String?= "name"
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.scrollview_example)
 
-        title= "My contacts"
+        if (intent !=null)
+        {
+            titleName = intent.getStringExtra("Name")
+        }
+
+        title= "titleName"
     }
 }
